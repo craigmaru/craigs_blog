@@ -11,7 +11,7 @@ from typing import Callable
 from functools import wraps
 from sqlalchemy import ForeignKey
 from flask_gravatar import Gravatar
-import gunicorn
+
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox7C0sKR6b'
