@@ -7,11 +7,9 @@ from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy.orm import relationship
 from flask_login import UserMixin, login_user, LoginManager, login_required, current_user, logout_user
 from forms import CreatePostForm, RegisterForm, LoginForm, CommentForm
-from flask_gravatar import Gravatar
 from typing import Callable
 from functools import wraps
-from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy import ForeignKey, Text
+from sqlalchemy import ForeignKey
 from flask_gravatar import Gravatar
 
 app = Flask(__name__)
